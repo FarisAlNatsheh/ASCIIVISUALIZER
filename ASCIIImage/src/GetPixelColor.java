@@ -29,7 +29,7 @@ public class GetPixelColor {
 	}
 	
 	public int[][] getImage(){
-		File file = new File("test.jpg");
+		File file = new File(Main.imageName);
 		BufferedImage imageR = null;
 		try {
 			imageR = ImageIO.read(file);
